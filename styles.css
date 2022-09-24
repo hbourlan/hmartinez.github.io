@@ -1,0 +1,184 @@
+/* COLOR PALETTE
+  1. #8EE4AF
+  2. #EDF5E1
+  3. #5CDB95
+  4. #907163
+  5. #679683
+  
+*/
+
+body {
+    background-color: antiquewhite;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Header */
+
+header {
+    position: fixed;
+    width: 20%;
+    background-image: url ('./images/hossein-nasr-Doht71y5hiA-unsplash.jpg');
+    background-position: center;
+}
+
+header nav {
+    text-decoration: none;
+}
+
+header nav li {
+    list-style: none;
+    padding: 5%;
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.btn {
+    background-color: black;
+    opacity: 0.9;
+    width: 100px;
+    margin: 10px;
+    border-radius: 10%;
+    text-align: center;
+    box-shadow: 1px black;
+}
+
+/* --- add button actions here --- */
+
+
+/* introduction area */
+
+.intro {
+    padding: 10%;
+}
+
+.intro h1 {
+    color: black;
+    font-family: 'Ms Madi', cursive;
+    text-shadow: 7px 3px aquamarine;
+    font-size: 8.5rem;
+    flex-wrap: wrap;
+}
+
+
+
+/* Catalog section */
+
+.qualifications {
+    align-content: center;
+    width: 80%;
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
+
+.qualifications h2 {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-shadow: 1px 1px white;
+}
+
+
+.qualifications img {
+    width: 20%;
+    height: auto;
+    padding-left: 9%;
+    padding-right: 3%;
+    float: left;
+}
+
+.skills-catalog {
+    padding: 5%;
+}
+
+.skills-catalog p {
+    margin-left: 15%;
+    margin-right: 150px;
+    width: 80%;
+}
+
+.skills-catalog ul {
+    padding: 3.125rem;
+    list-style: none;
+    font-weight: bold;
+    line-height: 2;
+    text-align: center;
+}
+
+
+/* experience section */
+
+.experience {
+    align-content: center;
+    width: 80%;
+    padding-top: 4rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    text-align: left;
+}
+.experience h2 {
+    text-align: center;
+    padding-bottom: 4rem;
+}
+.experience img {
+    width: 30%;
+    height: auto;
+    padding-left: 9%;
+    padding-right: 3%;
+    float: right;
+}
+
+.career-highlights ul {
+    list-style: none;
+}
+
+.career-highlights li {
+    text-align: left;
+    line-height: 1.5;
+}
+
+.jobs div {
+    padding: 2rem;
+}
+.jobs li {
+    text-align: left;
+    line-height: 1.4;
+}
+
+/* personal section */
+
+.personal {
+    align-content: center;
+    width: 80%;
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
+
+.personal li {
+    list-style: none;
+    text-align: left;
+    line-height: 1.6;
+}
+
+.personal img {
+    width: 20%;
+    height: auto;
+    padding-left: 9%;
+    padding-right: 3%;
+    float: right;
+}
+
+/* Contact Section */
+
+.contact {
+    align-content: center;
+    width: 80%;
+    margin-top: 8rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
+
