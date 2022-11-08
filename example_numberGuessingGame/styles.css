@@ -1,0 +1,29 @@
+body {
+    background-color: #333232;
+}
+
+#container {
+  background-color: #0e2431;
+  border: 1px solid #f5e4c3;
+  color: white;
+  height: 40vh;;
+  width: 65vw;
+  margin: 0 auto;
+  text-align: center;
+  overflow: hidden;
+  display: block;
+  justify-content: space-evenly;
+}
+
+#userInput {
+  width: 5vw;
+  height: 5vh;
+  font-size: 3vh;
+  text-align: center;
+}
+
+.btn {
+  width: 9vw;
+  height: 3.125vh;
+
+}
